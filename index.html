@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="bg-gradient-to-r from-blue-950 to-blue-900 flex justify-center items-center h-screen"
+  >
+    <div
+      class="containers rounded-2xl shadow-2xl bg-gradient-to-r from-sky-700 to-sky-800 max-w-lg space-y-8 py-8 px-8"
+    >
+      <h1 class="text-white text-6xl font-bold">
+        <span class="hour">00</span> : <span class="min">00</span> :
+        <span class="sec">00</span> : <span class="mil-sec">00</span>
+      </h1>
+
+      <!-- buttons -->
+      <div>
+        <section class="flex justify-center gap-10">
+          <button class="reset-btn bg-gradient-to-r from-cyan-950 to-cyan-900">
+            Reset
+          </button>
+          <div>
+            <button
+              class="start-btn bg-gradient-to-r from-green-950 to-green-900"
+            >
+              Start
+            </button>
+            <button
+              class="hidden stop-btn bg-gradient-to-r from-red-950 to-red-900"
+            >
+              Stop
+            </button>
+            <button
+              class="hidden resume-btn bg-gradient-to-r from-sky-400 to-sky-300"
+            >
+              Resume
+            </button>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script src="./src/script.js"></script>
+  </body>
+</html>
